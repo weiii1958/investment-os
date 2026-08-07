@@ -1,2 +1,4 @@
 .github/
 .github/
+report/capture_shots.mjs
+report/*.mjs
