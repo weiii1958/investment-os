@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06T12:54:35+08:00",
+  "updated_at": "2026-08-07T23:36:10+08:00",
   "tag": "自算近似",
   "source": "ZQ 結算（CME）＋FRED 目標區間；公式近似 FedWatch，非官方截圖",
   "source_url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
@@ -14,17 +14,17 @@
     "meeting_date": "2026-09-16",
     "contract": "ZQU6",
     "ease_pct": 0.0,
-    "hold_pct": 46.0,
-    "hike_pct": 54.0,
+    "hold_pct": 48.0,
+    "hike_pct": 52.0,
     "bands": [
       {
         "label": "3.50%-3.75%",
-        "pct": 46.0,
+        "pct": 48.0,
         "vs_current": "hold"
       },
       {
         "label": "3.75%-4.00%",
-        "pct": 54.0,
+        "pct": 52.0,
         "vs_current": "hike"
       }
     ]
@@ -38,12 +38,12 @@
     "bands": [
       {
         "label": "3.75%-4.00%",
-        "pct": 56.9,
+        "pct": 51.5,
         "vs_current": "hike"
       },
       {
         "label": "4.00%-4.25%",
-        "pct": 43.1,
+        "pct": 48.5,
         "vs_current": "hike"
       }
     ]
@@ -53,17 +53,17 @@
       "meeting_date": "2026-09-16",
       "contract": "ZQU6",
       "ease_pct": 0.0,
-      "hold_pct": 46.0,
-      "hike_pct": 54.0,
+      "hold_pct": 48.0,
+      "hike_pct": 52.0,
       "bands": [
         {
           "label": "3.50%-3.75%",
-          "pct": 46.0,
+          "pct": 48.0,
           "vs_current": "hold"
         },
         {
           "label": "3.75%-4.00%",
-          "pct": 54.0,
+          "pct": 52.0,
           "vs_current": "hike"
         }
       ]
@@ -77,12 +77,12 @@
       "bands": [
         {
           "label": "4.00%-4.25%",
-          "pct": 36.5,
+          "pct": 52.0,
           "vs_current": "hike"
         },
         {
           "label": "4.25%-4.50%",
-          "pct": 63.5,
+          "pct": 48.0,
           "vs_current": "hike"
         }
       ]
@@ -96,12 +96,12 @@
       "bands": [
         {
           "label": "3.75%-4.00%",
-          "pct": 56.9,
+          "pct": 51.5,
           "vs_current": "hike"
         },
         {
           "label": "4.00%-4.25%",
-          "pct": 43.1,
+          "pct": 48.5,
           "vs_current": "hike"
         }
       ]
@@ -115,12 +115,12 @@
       "bands": [
         {
           "label": "3.75%-4.00%",
-          "pct": 25.6,
+          "pct": 0.8,
           "vs_current": "hike"
         },
         {
           "label": "4.00%-4.25%",
-          "pct": 74.4,
+          "pct": 99.2,
           "vs_current": "hike"
         }
       ]
@@ -133,12 +133,12 @@
       "hike_pct": 100.0,
       "bands": [
         {
-          "label": "3.75%-4.00%",
+          "label": "4.00%-4.25%",
           "pct": 75.2,
           "vs_current": "hike"
         },
         {
-          "label": "4.00%-4.25%",
+          "label": "4.25%-4.50%",
           "pct": 24.8,
           "vs_current": "hike"
         }
@@ -153,12 +153,12 @@
       "bands": [
         {
           "label": "4.00%-4.25%",
-          "pct": 80.0,
+          "pct": 76.0,
           "vs_current": "hike"
         },
         {
           "label": "4.25%-4.50%",
-          "pct": 20.0,
+          "pct": 24.0,
           "vs_current": "hike"
         }
       ]
