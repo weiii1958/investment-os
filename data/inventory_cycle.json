@@ -1,0 +1,42 @@
+{
+  "updated_at": "2026-08-06T15:12:36+08:00",
+  "tag": "衍生指標",
+  "source": "ISM Manufacturing PMI（新訂單、客戶庫存）；FRED 已無此系列",
+  "source_url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/",
+  "formula": "spread = new_orders − customers_inv",
+  "note": "差值是每月溫度計（看水平＋方向），不是直接等於四階段。框架錨：從負大幅回升並轉為明顯正值（約 ≥3）常是補庫存拐點線索。這是美國製造業整體，不是半導體專屬。",
+  "te_check": null,
+  "latest": {
+    "date": "2026-07-01",
+    "new_orders": 56.7,
+    "customers_inv": 40.7,
+    "spread": 16.0,
+    "pmi": 55.6,
+    "source": "seed",
+    "chg_mom": 2.3,
+    "reading": "高正值且未回落 → 比較像補庫存環境（可能①）",
+    "tone": "ok",
+    "anchor": "差值 ≥ 3：框架「明顯正值」錨點附近",
+    "compare_date": "2026-06-01"
+  },
+  "history": [
+    {
+      "date": "2026-06-01",
+      "new_orders": 56.0,
+      "customers_inv": 42.3,
+      "spread": 13.7,
+      "pmi": 53.3,
+      "source": "seed",
+      "chg_mom": null
+    },
+    {
+      "date": "2026-07-01",
+      "new_orders": 56.7,
+      "customers_inv": 40.7,
+      "spread": 16.0,
+      "pmi": 55.6,
+      "source": "seed",
+      "chg_mom": 2.3
+    }
+  ]
+}

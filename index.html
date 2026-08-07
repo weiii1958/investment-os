@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Investment OS — 總經儀表板</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="index.html">Investment <span>OS</span></a>
+      <nav class="nav" id="nav">
+        <a href="index.html" class="active">Dashboard</a>
+        <a href="#status">水位</a>
+        <a href="#rules">紀律卡</a>
+        <a href="#ma">均線</a>
+        <a href="#vix">VIX</a>
+        <a href="#margin">維持率</a>
+        <a href="#fed-intent">Fed 意圖</a>
+        <a href="#token">Token</a>
+        <a href="#inventory">庫存循環</a>
+        <a href="#fms">FMS</a>
+        <a href="report/Investment_OS_建站報告.html">建站報告</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <h1>總經／市場儀表板</h1>
+      <p>公開示範：均線／VIX／維持率／Fed 意圖／Token／庫存循環（ISM 差值）／FMS。紀律卡：破線減碼＋部位／FT。完整做法見 <a href="report/Investment_OS_建站報告.html">建站報告</a>。</p>
+      <div class="meta-bar" id="meta-bar">讀取資料中…</div>
+    </section>
+
+    <section class="section" id="triad">
+      <div class="section-head">
+        <h2>下單前三問</h2>
+        <span class="hint">過關再談部位</span>
+      </div>
+      <div class="triad">
+        <div class="q-card">
+          <h3>1. 劇本還在嗎？</h3>
+          <p>預期差／總經敘事是否仍成立。對照下方 Fed 意圖。</p>
+        </div>
+        <div class="q-card">
+          <h3>2. 大盤破線了嗎？</h3>
+          <p>QQQ／台股／SOX：收盤破 SMA 30／60／200 才是扳機。</p>
+        </div>
+        <div class="q-card">
+          <h3>3. 單檔超限了嗎？</h3>
+          <p>常態 10%、FT 後 20%；IB 與台股分帳戶算。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="status">
+      <div class="section-head">
+        <h2>破線水位一覽</h2>
+        <span class="hint">綠＝站上 · 紅＝收盤破線</span>
+      </div>
+      <div id="status-table"></div>
+    </section>
+
+    <section class="section" id="rules">
+      <div class="section-head">
+        <h2>第二／三層紀律卡</h2>
+        <span class="hint">規則釘在眼前 · 不連帳戶</span>
+      </div>
+      <div class="rules-grid" id="rules-box"></div>
+    </section>
+
+    <section class="section" id="ma">
+      <div class="section-head">
+        <h2>大盤均線（主訊號）</h2>
+        <span class="hint">SMA 30／60／200 · 收盤破線</span>
+      </div>
+      <div class="grid" id="ma-grid"></div>
+
+      <div class="chart-toolbar">
+        <div class="range-btns" id="global-range">
+          <button data-range="1w">1W</button>
+          <button data-range="1m">1M</button>
+          <button data-range="3m" class="active">3M</button>
+          <button data-range="6m">6M</button>
+          <button data-range="ytd">YTD</button>
+          <button data-range="1y">1Y</button>
+          <button data-range="3y">3Y</button>
+          <button data-range="5y">5Y</button>
+          <button data-range="all">全</button>
+        </div>
+        <div class="ma-toggles" id="ma-toggles">
+          <label data-ma-label="sma30"><input type="checkbox" data-ma="sma30" checked /> SMA30</label>
+          <label data-ma-label="sma60"><input type="checkbox" data-ma="sma60" checked /> SMA60</label>
+          <label data-ma-label="sma200"><input type="checkbox" data-ma="sma200" checked /> SMA200</label>
+        </div>
+      </div>
+
+      <div class="charts-grid">
+        <div class="chart-box">
+          <div class="chart-title">QQQ</div>
+          <div class="chart-el" id="chart-qqq"></div>
+        </div>
+        <div class="chart-box">
+          <div class="chart-title">VOO（S&P 500）</div>
+          <div class="chart-el" id="chart-voo"></div>
+        </div>
+        <div class="chart-box">
+          <div class="chart-title">台股加權</div>
+          <div class="chart-el" id="chart-twii"></div>
+        </div>
+        <div class="chart-box">
+          <div class="chart-title">SOX</div>
+          <div class="chart-el" id="chart-sox"></div>
+        </div>
+        <div class="chart-box chart-box--wide">
+          <div class="chart-title">SOX vs QQQ（可見區間起點＝100）</div>
+          <div class="chart-el" id="chart-rel"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="vix">
+      <div class="section-head">
+        <h2>情緒（試行）</h2>
+        <span class="hint">只顯示，不作槓桿開關 · 時間範圍跟上方均線區同步</span>
+      </div>
+      <div class="vix-row">
+        <div class="grid" id="vix-grid"></div>
+        <div class="chart-box">
+          <div class="chart-title">VIX</div>
+          <div class="chart-el" id="chart-vix"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="margin">
+      <div class="section-head">
+        <h2>大盤融資維持率（估算）</h2>
+        <span class="hint">FinLab 算法 · ≠證交所整戶</span>
+      </div>
+      <p class="day-summary" id="margin-day-summary">讀取中…</p>
+      <div class="grid" id="margin-grid"></div>
+      <div class="charts-grid" style="margin-top:0.85rem">
+        <div class="chart-box">
+          <div class="chart-title">大盤融資維持率 %</div>
+          <div class="range-btns margin-range-btns" data-margin-range style="margin:0.35rem 0">
+            <button data-range="1w">1W</button>
+            <button data-range="1m">1M</button>
+            <button data-range="3m" class="active">3M</button>
+            <button data-range="6m">6M</button>
+            <button data-range="ytd">YTD</button>
+            <button data-range="1y">1Y</button>
+            <button data-range="3y">3Y</button>
+            <button data-range="5y">5Y</button>
+            <button data-range="all">全</button>
+          </div>
+          <div class="chart-el" id="chart-margin"></div>
+        </div>
+        <div class="chart-box">
+          <div class="chart-title">融資餘額（億元）</div>
+          <div class="range-btns margin-range-btns" data-margin-range style="margin:0.35rem 0">
+            <button data-range="1w">1W</button>
+            <button data-range="1m">1M</button>
+            <button data-range="3m" class="active">3M</button>
+            <button data-range="6m">6M</button>
+            <button data-range="ytd">YTD</button>
+            <button data-range="1y">1Y</button>
+            <button data-range="3y">3Y</button>
+            <button data-range="5y">5Y</button>
+            <button data-range="all">全</button>
+          </div>
+          <div class="chart-el" id="chart-margin-bal"></div>
+        </div>
+      </div>
+      <aside class="howto" id="margin-howto">
+        <h3>應該怎麼看</h3>
+        <ol>
+          <li><strong>維持率估算量什麼：</strong>全市場「融資多頭」擔保品市值 ÷ 融資金額（FinLab 口徑，含 ETF）。數字愈低＝槓桿多頭愈痛；≠證交所整戶，也≠你個人帳戶追繳數字。</li>
+          <li><strong>融資餘額量什麼：</strong>上市＋上櫃融資金額合計（億）。上升＝市場還在加槓桿；下降＝融資退場／去槓桿。</li>
+          <li><strong>兩者一起看：</strong>維持率急跌＋餘額續降 → 較像斷頭／停損賣壓釋放中；維持率回升且餘額止跌 → 籌碼較穩。單看一天高低不決策。</li>
+          <li><strong>水位口訣（本站估算%）：</strong>剛融資約 <em>166.7%</em> → 框架參考 <em>150%</em> → 偏緊 <em>140%</em> → <em>130%</em> 附近＝本序列極端底（如 2025 關稅戰）；個人追繳仍看券商整戶。</li>
+          <li><strong>注意：</strong>不要跟 M 平方舊圖 140% 絕對值硬比。大盤加減碼仍以均線收盤破線為主訊號。</li>
+        </ol>
+      </aside>
+    </section>
+
+    <section class="section" id="fed-intent">
+      <div class="section-head">
+        <h2>Fed 意圖</h2>
+        <span class="hint">預防性降息 vs 衰退式降息 · 左卡右圖 · 自行判讀</span>
+      </div>
+
+      <div class="rate-transmit" id="rate-transmit">
+        <h3>央行政策與利率傳導 <span class="pill">框架確定</span></h3>
+        <p>
+          Fed 用兩條軸：<strong>利率</strong>（錢的價格）與<strong>資產負債表</strong>（錢的數量／QT·QE）。先搞懂利率怎麼傳下去，再看下方證據牆（含總資產斜率）。
+        </p>
+        <p>
+          <strong>基準利率（Fed Funds）</strong>＝銀行隔夜拆借的官方參考利率，整個金融系統「借錢的底價」。
+          <em>升息</em>＝借錢變貴、壓通膨；<em>降息</em>＝借錢變便宜、刺激經濟。
+          <strong>Fed 總資產（WALCL）</strong>＝另一條軸：往下偏 QT、往上偏擴表、橫盤常是暫停縮表後的持平。
+        </p>
+        <div class="rate-chain">
+          <div class="rate-chain-title">利率傳導（完整鏈）</div>
+          <ol>
+            <li>Fed 調升基準利率</li>
+            <li>銀行間隔夜利率上升</li>
+            <li>短期美債殖利率上升（2 年、3 個月…）← <strong>日常盯 2Y</strong></li>
+            <li>銀行存貸款利率上升（房貸、車貸、企業借款）</li>
+            <li>大家少借錢、少消費、少投資</li>
+            <li>通膨壓力下降（通常要幾個月到一年才明顯）</li>
+          </ol>
+        </div>
+        <div class="rate-points">
+          <div>
+            <strong>升息 → 成長股為何易受傷</strong>
+            <p>美債等「現在就能拿的利息」變香 → 較不想買很貴的成長股。科技股很多價值在很遠以後的獲利；折現率變高 → <em>本益比被壓縮（殺估值）</em>，公司還沒變爛，股價常先跌。</p>
+          </div>
+          <div>
+            <strong>升息太猛 → 衰退風險</strong>
+            <p>借錢太貴 → 消費投資放緩 → 裁員 → 失業升 → 衰退。白話：升息是吃藥治通膨，藥下太猛副作用就是衰退。Fed 想要的是<strong>軟著陸</strong>——壓住通膨又不要硬著陸。</p>
+          </div>
+        </div>
+        <p class="rate-foot">
+          站上用法：<strong>基準利率</strong>＝錢的價格標籤；<strong>Fed 總資產</strong>＝錢的數量（QT／QE）；
+          <strong>2Y／10Y／曲線</strong>＝日常解讀（市場常比 Fed 早動）。時間差：債市幾天～幾週，貸款約 1～3 個月，實體經濟約 6～18 個月。
+        </p>
+      </div>
+
+      <div id="fedwatch-box" class="fedwatch-box"></div>
+
+      <div id="fed-evidence-list"></div>
+      <aside class="howto" style="margin-top:0.85rem">
+        <h3>怎麼讀這區</h3>
+        <ol>
+          <li><strong>Fed 意圖</strong>＝劇本判斷：預防性＝經濟沒崩、通膨回落；衰退式＝失業惡化、信用緊。</li>
+          <li><strong>先讀上方傳導</strong>：基準利率 → 短債 → 貸款 → 經濟；再看 FedWatch 自算（市場定價），再往下證據牆。</li>
+          <li><strong>布局：</strong>左邊說明卡、右邊歷史圖（菲利浦＝散點路徑）。</li>
+          <li><strong>已上線：</strong>基準利率、Fed 總資產（QT／QE）、FedWatch 自算、Truflation、初領、Core PCE、失業率、菲利浦、10Y／2Y、10Y−2Y、HY。</li>
+          <li><strong>框架錨點：</strong>失業率約 <em>4%</em>；初領約 <em>30 萬</em>；Core PCE 約 <em>2%～3%</em>。</li>
+        </ol>
+      </aside>
+    </section>
+
+    <section class="section" id="token">
+      <div class="section-head">
+        <h2>AI 需求端：Token 消耗</h2>
+        <span class="hint">OpenRouter 代理 · 先看總量有沒有往上</span>
+      </div>
+      <p class="token-intro">
+        只問一件事：<strong>Token 總量有沒有持續往上</strong>（不管美國還是中國在扛）。
+        中美拆解只是輔助。資料來自
+        <a href="https://openrouter.ai/rankings" target="_blank" rel="noopener"><strong>OpenRouter Rankings</strong></a>，不是全球官方總用量。
+      </p>
+      <div id="token-box"></div>
+      <div class="charts-grid" style="margin-top:0.85rem">
+        <div class="chart-box chart-box--wide">
+          <div class="chart-title">Token 總量趨勢（週）</div>
+          <p class="fms-chart-note">粗線＝全平台合計（含 Others，看有沒有往上）。細線＝美國／中國拆解。趨勢口徑用週排行，避免日快照跳點干擾。</p>
+          <div class="chart-el" id="chart-token-total" style="height:300px"></div>
+        </div>
+      </div>
+      <aside class="howto" style="margin-top:0.85rem">
+        <h3>怎麼讀 Token</h3>
+        <ol>
+          <li><strong>先看粗線：</strong>升＝需求體溫還在；走平／降＝領先指標變冷，半導體新開倉更保守。</li>
+          <li><strong>中美細線：</strong>誰在扛可以看，但不改變「總量有沒有升」的主判斷。</li>
+          <li><strong>限制：</strong>OpenRouter≠全球真實總用量。原始排行：<a href="https://openrouter.ai/rankings" target="_blank" rel="noopener">openrouter.ai/rankings</a></li>
+        </ol>
+      </aside>
+    </section>
+
+    <section class="section" id="inventory">
+      <div class="section-head">
+        <h2>庫存循環（ISM 差值）</h2>
+        <span class="hint">美國製造業 · 月頻溫度計</span>
+      </div>
+      <p class="token-intro" id="inventory-intro">
+        <strong>庫存循環與差值</strong>　
+        貨太少（<em>補庫存</em>）與貨太多（<em>去庫存</em>）的來回；供應鏈上比 GDP 更貼<strong>訂單／報價</strong>。
+        本站溫度計叫<strong>差值</strong>＝<strong>新訂單 − 客戶庫存</strong>（兩個分數相減，不是插值）。
+        新訂單高、客戶庫存低 → 正值大 → 偏補；縮小／轉負 → 動能轉弱或偏去。
+        大數字與粗線都是它。
+        <br /><br />
+        <strong>ISM 問卷</strong>　
+        美國供應管理協會每月問製造業採購主管：訂單比上月強不強、客戶手上你的貨算多還少。
+        編成以 <strong>50</strong> 為界的指數（感覺調查，非實際噸數）。
+        這是<strong>美國製造業整體</strong>，不是半導體專屬。
+        看水平＋方向，<strong>≠</strong>直接等於四階段；連看數月，再用報價、庫存天數驗證。
+      </p>
+      <div id="inventory-box"></div>
+      <div class="charts-grid" style="margin-top:0.85rem">
+        <div class="chart-box chart-box--wide">
+          <div class="chart-title">差值走勢</div>
+          <p class="fms-chart-note">主看粗線。虛線＋3＝框架「明顯正值」錨點。細線＝拆解，可忽略。</p>
+          <div class="chart-el" id="chart-inventory" style="height:280px"></div>
+        </div>
+      </div>
+      <aside class="howto" style="margin-top:0.85rem">
+        <h3>怎麼判斷四階段</h3>
+        <ol>
+          <li><strong>看差值：</strong>水平＋近幾個月方向（單月雜訊大）。</li>
+          <li><strong>連看 3～6 個月：</strong>確認升／平／降，不要單點定案。</li>
+          <li><strong>驗證現場：</strong>報價漲不漲、庫存天數升或降、法說講缺貨還是砍單。</li>
+          <li><strong>才說「比較像」哪一階段：</strong>差值偏補／去；主動／被動靠驗證分辨。常見陷阱：差值還很高正，但報價不動、庫存天數上升 → 更像②，不是永遠①。</li>
+          <li><strong>部位：</strong>仍過第二層破線。</li>
+        </ol>
+      </aside>
+    </section>
+
+    <section class="section" id="fms">
+      <div class="section-head">
+        <h2>FMS 月度問卷</h2>
+        <span class="hint">機構經理人在忙什麼 · 參考用，不作買賣燈</span>
+      </div>
+      <p class="fms-intro" id="fms-intro">
+        <strong>FMS</strong>＝美銀（BofA）每月問全球基金經理人：手上現金多少、覺得景氣怎麼走、錢擠在哪裡。
+        數字經<strong>美股 Insight</strong>整理後自動抽進本站。重點看三件事：<em>現金夠不夠（彈藥）</em>、<em>大家是否擠同一邊（擁擠）</em>、<em>景氣劇本偏樂觀還悲觀</em>。
+      </p>
+      <div class="fms-layout" id="fms-box"></div>
+      <div class="charts-grid" style="margin-top:0.85rem">
+        <div class="chart-box">
+          <div class="chart-title">現金占 AUM 歷史</div>
+          <p class="fms-chart-note">越低＝越敢把錢投入市場（彈藥越少）。虛線＝框架警戒約 4%。</p>
+          <div class="chart-el" id="chart-fms-cash" style="height:240px"></div>
+        </div>
+        <div class="chart-box">
+          <div class="chart-title">著陸預期歷史</div>
+          <p class="fms-chart-note">經理人投票：未來一年全球經濟偏硬著陸／軟著陸／不著陸。只有原文有寫的月份才會出現。</p>
+          <div class="chart-el" id="chart-fms-landing" style="height:240px"></div>
+        </div>
+      </div>
+      <aside class="howto" style="margin-top:0.85rem">
+        <h3>怎麼讀 FMS</h3>
+        <ol>
+          <li><strong>現金 &lt; 約 4%</strong>：偏樂觀、手上子彈少；框架寫極低時提高警覺，不單獨當賣出訊號。</li>
+          <li><strong>擁擠交易很高</strong>：多數人站同一邊，逆向空間要更小心，新開倉看估值與預期差。</li>
+          <li><strong>著陸／通膨／Fed</strong>：這是「經理人怎麼想」，可和 Fed 意圖區的實際數據交叉，找預期差。</li>
+          <li><strong>MoM vs Absolute</strong>：MoM＝相對上個月加減碼；Absolute＝現在願意超配／低配誰。兩者一起看輪動方向。</li>
+        </ol>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="footer">
+    公開示範站 · 對齊個人投資框架 · <a href="report/Investment_OS_建站報告.html">建站報告</a> · 數據為公開來源快照，不構成投資建議 · 不接個人帳戶
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

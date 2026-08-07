@@ -1,0 +1,15 @@
+{
+  "updated_at": "2026-08-06T16:00:00+08:00",
+  "note": "人工判斷卡：Fed 意圖、FedWatch、Token 等需手動更新（非自動抓數）",
+  "cards": [
+    {
+      "id": "fed_intent",
+      "label": "Fed 意圖（人工判斷）",
+      "scenario": "預防性降息",
+      "tone": "ok",
+      "note": "通膨回落（Core PCE 約 2%～3%）、就業尚穩（失業約 4%、初領未爆）→ 較接近預防性寬鬆條件，非衰退式急救。HY 利差偏低、VIX 未急升 → 流動性防線尚可。",
+      "last_review": "2026-08-06",
+      "next_check": "下次 FOMC 會議前／重大就業或通膨數據後"
+    }
+  ]
+}

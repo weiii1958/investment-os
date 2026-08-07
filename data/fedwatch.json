@@ -1,0 +1,167 @@
+{
+  "updated_at": "2026-08-06T12:54:35+08:00",
+  "tag": "自算近似",
+  "source": "ZQ 結算（CME）＋FRED 目標區間；公式近似 FedWatch，非官方截圖",
+  "source_url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
+  "effr": 3.63,
+  "current_target": "3.50%-3.75%",
+  "schedule_status": {
+    "state": "ok",
+    "remaining": 12,
+    "last_known": "2028-01-26"
+  },
+  "next": {
+    "meeting_date": "2026-09-16",
+    "contract": "ZQU6",
+    "ease_pct": 0.0,
+    "hold_pct": 46.0,
+    "hike_pct": 54.0,
+    "bands": [
+      {
+        "label": "3.50%-3.75%",
+        "pct": 46.0,
+        "vs_current": "hold"
+      },
+      {
+        "label": "3.75%-4.00%",
+        "pct": 54.0,
+        "vs_current": "hike"
+      }
+    ]
+  },
+  "year_end": {
+    "meeting_date": "2026-12-09",
+    "contract": "ZQZ6",
+    "ease_pct": 0.0,
+    "hold_pct": 0.0,
+    "hike_pct": 100.0,
+    "bands": [
+      {
+        "label": "3.75%-4.00%",
+        "pct": 56.9,
+        "vs_current": "hike"
+      },
+      {
+        "label": "4.00%-4.25%",
+        "pct": 43.1,
+        "vs_current": "hike"
+      }
+    ]
+  },
+  "meetings": [
+    {
+      "meeting_date": "2026-09-16",
+      "contract": "ZQU6",
+      "ease_pct": 0.0,
+      "hold_pct": 46.0,
+      "hike_pct": 54.0,
+      "bands": [
+        {
+          "label": "3.50%-3.75%",
+          "pct": 46.0,
+          "vs_current": "hold"
+        },
+        {
+          "label": "3.75%-4.00%",
+          "pct": 54.0,
+          "vs_current": "hike"
+        }
+      ]
+    },
+    {
+      "meeting_date": "2026-10-28",
+      "contract": "ZQV6",
+      "ease_pct": 0.0,
+      "hold_pct": 0.0,
+      "hike_pct": 100.0,
+      "bands": [
+        {
+          "label": "4.00%-4.25%",
+          "pct": 36.5,
+          "vs_current": "hike"
+        },
+        {
+          "label": "4.25%-4.50%",
+          "pct": 63.5,
+          "vs_current": "hike"
+        }
+      ]
+    },
+    {
+      "meeting_date": "2026-12-09",
+      "contract": "ZQZ6",
+      "ease_pct": 0.0,
+      "hold_pct": 0.0,
+      "hike_pct": 100.0,
+      "bands": [
+        {
+          "label": "3.75%-4.00%",
+          "pct": 56.9,
+          "vs_current": "hike"
+        },
+        {
+          "label": "4.00%-4.25%",
+          "pct": 43.1,
+          "vs_current": "hike"
+        }
+      ]
+    },
+    {
+      "meeting_date": "2027-01-27",
+      "contract": "ZQF7",
+      "ease_pct": 0.0,
+      "hold_pct": 0.0,
+      "hike_pct": 100.0,
+      "bands": [
+        {
+          "label": "3.75%-4.00%",
+          "pct": 25.6,
+          "vs_current": "hike"
+        },
+        {
+          "label": "4.00%-4.25%",
+          "pct": 74.4,
+          "vs_current": "hike"
+        }
+      ]
+    },
+    {
+      "meeting_date": "2027-03-17",
+      "contract": "ZQH7",
+      "ease_pct": 0.0,
+      "hold_pct": 0.0,
+      "hike_pct": 100.0,
+      "bands": [
+        {
+          "label": "3.75%-4.00%",
+          "pct": 75.2,
+          "vs_current": "hike"
+        },
+        {
+          "label": "4.00%-4.25%",
+          "pct": 24.8,
+          "vs_current": "hike"
+        }
+      ]
+    },
+    {
+      "meeting_date": "2027-04-28",
+      "contract": "ZQJ7",
+      "ease_pct": 0.0,
+      "hold_pct": 0.0,
+      "hike_pct": 100.0,
+      "bands": [
+        {
+          "label": "4.00%-4.25%",
+          "pct": 80.0,
+          "vs_current": "hike"
+        },
+        {
+          "label": "4.25%-4.50%",
+          "pct": 20.0,
+          "vs_current": "hike"
+        }
+      ]
+    }
+  ]
+}
