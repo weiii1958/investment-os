@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T18:26:52+08:00",
+  "updated_at": "2026-08-12T18:18:55+08:00",
   "source": "美股 Insight FMS 文（vocus_archive／舊原文夾／整理版）自動抽取",
   "latest": {
     "survey_period": "7/2 ~ 7/9",
@@ -81,7 +81,7 @@
       "mom_overweight": [],
       "mom_underweight": [],
       "source": "https://vocus.cc/article/65967877fd89780001b3cb82",
-      "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/投資報告整理/_後台/舊原文夾/美股Insight/2024-01-04_BofA 12 月 FMS 報告：該進場的人，都已經進場.md"
+      "source_local": "/Users/wangwei/Desktop/Python traing/01_投資報告整理/_後台/舊原文夾/美股Insight/2024-01-04_BofA 12 月 FMS 報告：該進場的人，都已經進場.md"
     },
     {
       "ym": "2024-01",
@@ -96,7 +96,7 @@
       "mom_overweight": [],
       "mom_underweight": [],
       "source": "https://vocus.cc/article/65a845aafd8978000101f2d7",
-      "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/投資報告整理/_後台/舊原文夾/美股Insight/2024-01-17_1 月 FMS 報告：Street 認為 Fed 降息將是推升 2024 股價走高的主要動能，這令人感到困惑.md"
+      "source_local": "/Users/wangwei/Desktop/Python traing/01_投資報告整理/_後台/舊原文夾/美股Insight/2024-01-17_1 月 FMS 報告：Street 認為 Fed 降息將是推升 2024 股價走高的主要動能，這令人感到困惑.md"
     },
     {
       "ym": "2024-02",
@@ -111,7 +111,7 @@
       "mom_overweight": [],
       "mom_underweight": [],
       "source": "https://vocus.cc/article/65cef0f4fd897800011b643c",
-      "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/投資報告整理/_後台/舊原文夾/美股Insight/2024-02-16_2 月 FMS：繼續看好高品質股優於低品質股，同意這個趨勢.md",
+      "source_local": "/Users/wangwei/Desktop/Python traing/01_投資報告整理/_後台/舊原文夾/美股Insight/2024-02-16_2 月 FMS：繼續看好高品質股優於低品質股，同意這個趨勢.md",
       "aum_bn_usd": 6560,
       "abs_overweight": [
         "科技股",
@@ -138,7 +138,7 @@
       "mom_overweight": [],
       "mom_underweight": [],
       "source": "https://vocus.cc/article/65f98b91fd897800019fa7b6",
-      "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/投資報告整理/_後台/舊原文夾/美股Insight/2024-03-19_3月FMS：經理人並未一面倒看好AI，這反倒令人安心.md",
+      "source_local": "/Users/wangwei/Desktop/Python traing/01_投資報告整理/_後台/舊原文夾/美股Insight/2024-03-19_3月FMS：經理人並未一面倒看好AI，這反倒令人安心.md",
       "aum_bn_usd": 5720,
       "abs_overweight": [
         "或 underweight 那些產業"
@@ -169,7 +169,7 @@
       "mom_overweight": [],
       "mom_underweight": [],
       "source": "https://vocus.cc/article/661e73b4fd89780001f18008",
-      "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/投資報告整理/_後台/舊原文夾/美股Insight/2024-04-16_4月FMS：短線對全球景氣高速樂觀似乎帶來警訊，歐日股倉位過度集中暗示賣壓風險更大.md",
+      "source_local": "/Users/wangwei/Desktop/Python traing/01_投資報告整理/_後台/舊原文夾/美股Insight/2024-04-16_4月FMS：短線對全球景氣高速樂觀似乎帶來警訊，歐日股倉位過度集中暗示賣壓風險更大.md",
       "aum_bn_usd": 7190,
       "abs_overweight": [
         "是處在中性水平"
@@ -196,7 +196,7 @@
       "mom_overweight": [],
       "mom_underweight": [],
       "source": "https://vocus.cc/article/6644c09dfd8978000195b2c8",
-      "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/投資報告整理/_後台/舊原文夾/美股Insight/2024-05-15_5月FMS經理人調查：現金水位降至4.0%警戒線，買盤動能已越來越稀缺.md",
+      "source_local": "/Users/wangwei/Desktop/Python traing/01_投資報告整理/_後台/舊原文夾/美股Insight/2024-05-15_5月FMS經理人調查：現金水位降至4.0%警戒線，買盤動能已越來越稀缺.md",
       "abs_overweight": [
         "或 underweight 那些產業"
       ],
@@ -224,7 +224,7 @@
       "mom_overweight": [],
       "mom_underweight": [],
       "source": "https://vocus.cc/article/6671d75dfd8978000122b5d1",
-      "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/投資報告整理/_後台/舊原文夾/美股Insight/2024-06-18_6月FMS經理人調查：更多經理人轉向軟著陸論述，科技股倉位從歷史Z-Score觀察過低.md",
+      "source_local": "/Users/wangwei/Desktop/Python traing/01_投資報告整理/_後台/舊原文夾/美股Insight/2024-06-18_6月FMS經理人調查：更多經理人轉向軟著陸論述，科技股倉位從歷史Z-Score觀察過低.md",
       "aum_bn_usd": 7210,
       "tech_zscore": 7.0,
       "abs_overweight": [
@@ -256,7 +256,7 @@
       "mom_overweight": [],
       "mom_underweight": [],
       "source": "https://vocus.cc/article/6697de54fd89780001e31ed5",
-      "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/投資報告整理/_後台/舊原文夾/美股Insight/2024-07-17_7月FMS：經理人廣泛信任Fed降息能帶來軟著陸，經濟預期改善下或更該專注IT預算釋放.md",
+      "source_local": "/Users/wangwei/Desktop/Python traing/01_投資報告整理/_後台/舊原文夾/美股Insight/2024-07-17_7月FMS：經理人廣泛信任Fed降息能帶來軟著陸，經濟預期改善下或更該專注IT預算釋放.md",
       "aum_bn_usd": 6320,
       "abs_overweight": [
         "或 underweight 那些產業"
@@ -286,7 +286,7 @@
       "mom_overweight": [],
       "mom_underweight": [],
       "source": "https://vocus.cc/article/66be034afd897800011ba7ff",
-      "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/投資報告整理/_後台/舊原文夾/美股Insight/2024-08-15_8月FMS：FMS倉位快速砍股買債，若經濟數據回溫勢將需要回補美股.md",
+      "source_local": "/Users/wangwei/Desktop/Python traing/01_投資報告整理/_後台/舊原文夾/美股Insight/2024-08-15_8月FMS：FMS倉位快速砍股買債，若經濟數據回溫勢將需要回補美股.md",
       "aum_bn_usd": 5900,
       "abs_overweight": [
         "Stocks) 股票的經理人比率大幅自前月的 51% 降至 31%；而以 MoM 的角度觀察",
@@ -317,7 +317,7 @@
       "mom_overweight": [],
       "mom_underweight": [],
       "source": "https://vocus.cc/article/671409a3fd89780001099bca",
-      "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/投資報告整理/_後台/舊原文夾/美股Insight/2024-10-19_10月FMS：現金水位降至警戒水平，砍債力道創歷史最大似乎為重新布局美債留下空間.md",
+      "source_local": "/Users/wangwei/Desktop/Python traing/01_投資報告整理/_後台/舊原文夾/美股Insight/2024-10-19_10月FMS：現金水位降至警戒水平，砍債力道創歷史最大似乎為重新布局美債留下空間.md",
       "aum_bn_usd": 5740,
       "abs_overweight": [
         "或 underweight 那些類股"
@@ -346,7 +346,7 @@
       "mom_overweight": [],
       "mom_underweight": [],
       "source": "https://vocus.cc/article/6735d784fd897800013e985c",
-      "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/投資報告整理/_後台/舊原文夾/美股Insight/2024-11-14_11月FMS：川普勝選後對經濟預期轉向高度樂觀，共識交易銀行股使得Alpha空間可能不大.md",
+      "source_local": "/Users/wangwei/Desktop/Python traing/01_投資報告整理/_後台/舊原文夾/美股Insight/2024-11-14_11月FMS：川普勝選後對經濟預期轉向高度樂觀，共識交易銀行股使得Alpha空間可能不大.md",
       "aum_bn_usd": 5650,
       "abs_overweight": [
         "或 underweight 那些類股"
@@ -377,7 +377,7 @@
       "mom_overweight": [],
       "mom_underweight": [],
       "source": "https://vocus.cc/article/67615158fd89780001d7904f",
-      "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/投資報告整理/_後台/舊原文夾/美股Insight/2024-12-17_12月FMS：現金水位低於4%警戒線，美股中小型股似乎存在Alpha空間.md",
+      "source_local": "/Users/wangwei/Desktop/Python traing/01_投資報告整理/_後台/舊原文夾/美股Insight/2024-12-17_12月FMS：現金水位低於4%警戒線，美股中小型股似乎存在Alpha空間.md",
       "aum_bn_usd": 4500,
       "abs_overweight": [
         "或 underweight 那些類股"
@@ -402,7 +402,7 @@
       "mom_overweight": [],
       "mom_underweight": [],
       "source": "https://vocus.cc/article/6793e210fd89780001f02018",
-      "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/投資報告整理/_後台/舊原文夾/美股Insight/2025-01-24_1月FMS：FMS 現金水位仍低於 4.0% 警戒線，但有趣的是散戶卻高度看空.md",
+      "source_local": "/Users/wangwei/Desktop/Python traing/01_投資報告整理/_後台/舊原文夾/美股Insight/2025-01-24_1月FMS：FMS 現金水位仍低於 4.0% 警戒線，但有趣的是散戶卻高度看空.md",
       "aum_bn_usd": 5760,
       "abs_overweight": [
         "或 underweight 那些類股"
@@ -424,7 +424,7 @@
       "mom_overweight": [],
       "mom_underweight": [],
       "source": "https://vocus.cc/article/67b61cf0fd89780001a981e3",
-      "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/投資報告整理/_後台/舊原文夾/美股Insight/2025-02-19_2月FMS分析：經理人加速轉倉歐股、看好陸股，嚴重underweight科技股似乎留下Alpha空間.md",
+      "source_local": "/Users/wangwei/Desktop/Python traing/01_投資報告整理/_後台/舊原文夾/美股Insight/2025-02-19_2月FMS分析：經理人加速轉倉歐股、看好陸股，嚴重underweight科技股似乎留下Alpha空間.md",
       "aum_bn_usd": 4820,
       "abs_overweight": [
         "或 underweight 那些類股"
@@ -448,7 +448,7 @@
       "mom_overweight": [],
       "mom_underweight": [],
       "source": "https://vocus.cc/article/67d99a71fd89780001b840fd",
-      "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/投資報告整理/_後台/舊原文夾/美股Insight/2025-03-18_3月FMS分析：經理人大砍美股、科技股並增持現金，但似乎尚未達到逆向交易的好時機.md",
+      "source_local": "/Users/wangwei/Desktop/Python traing/01_投資報告整理/_後台/舊原文夾/美股Insight/2025-03-18_3月FMS分析：經理人大砍美股、科技股並增持現金，但似乎尚未達到逆向交易的好時機.md",
       "aum_bn_usd": 4770,
       "abs_overweight": [
         "或 underweight 那些類股"
@@ -473,7 +473,7 @@
       "mom_overweight": [],
       "mom_underweight": [],
       "source": "https://vocus.cc/article/67ffbf13fd89780001b57bf9",
-      "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/投資報告整理/_後台/舊原文夾/美股Insight/2025-04-16_4月FMS分析：經理人情緒歷史第5悲觀但現金水位尚未反映、科技股倉位與歷史相比低至-2個標準差.md",
+      "source_local": "/Users/wangwei/Desktop/Python traing/01_投資報告整理/_後台/舊原文夾/美股Insight/2025-04-16_4月FMS分析：經理人情緒歷史第5悲觀但現金水位尚未反映、科技股倉位與歷史相比低至-2個標準差.md",
       "aum_bn_usd": 4440,
       "abs_overweight": [
         "或 underweight 那些類股"
@@ -504,7 +504,7 @@
       "mom_overweight": [],
       "mom_underweight": [],
       "source": "https://vocus.cc/article/6824806dfd89780001a724f9",
-      "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/投資報告整理/_後台/舊原文夾/美股Insight/2025-05-14_5月FMS：貿易戰緩解刺激科技股回補，但對比歷史Z-score來看似乎仍有加倉空間.md",
+      "source_local": "/Users/wangwei/Desktop/Python traing/01_投資報告整理/_後台/舊原文夾/美股Insight/2025-05-14_5月FMS：貿易戰緩解刺激科技股回補，但對比歷史Z-score來看似乎仍有加倉空間.md",
       "aum_bn_usd": 5220,
       "abs_overweight": [
         "或 underweight 那些類股"
@@ -528,7 +528,7 @@
       "mom_overweight": [],
       "mom_underweight": [],
       "source": "https://vocus.cc/article/6852cca9fd89780001e07550",
-      "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/投資報告整理/_後台/舊原文夾/美股Insight/2025-06-18_6月FMS：經理人看空美元情緒創20年來最高，有一點點美元貶值到頭即可能刺激FMS全球倉位重新配置.md",
+      "source_local": "/Users/wangwei/Desktop/Python traing/01_投資報告整理/_後台/舊原文夾/美股Insight/2025-06-18_6月FMS：經理人看空美元情緒創20年來最高，有一點點美元貶值到頭即可能刺激FMS全球倉位重新配置.md",
       "aum_bn_usd": 5870,
       "abs_overweight": [
         "或 underweight 那些類股"
@@ -573,7 +573,7 @@
         "也呼應 7 月 FMS 現金水位降至 3.9% 的樂觀情緒"
       ],
       "source": "https://vocus.cc/article/6876a96efd897800011ce4ad",
-      "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/投資報告整理/_後台/舊原文夾/美股Insight/2025-07-15_7月FMS：現金水位跌破4.0%警戒線，但經理人倉位仍主要集中在歐股、歐元等資產.md",
+      "source_local": "/Users/wangwei/Desktop/Python traing/01_投資報告整理/_後台/舊原文夾/美股Insight/2025-07-15_7月FMS：現金水位跌破4.0%警戒線，但經理人倉位仍主要集中在歐股、歐元等資產.md",
       "aum_bn_usd": 5040,
       "tech_zscore": 3.0,
       "abs_overweight": [
@@ -625,7 +625,7 @@
         "大宗商品"
       ],
       "source": "https://vocus.cc/article/689a3d09fd897800010ee25b",
-      "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/投資報告整理/_後台/舊原文夾/美股Insight/2025-08-11_8月FMS：大砍歐股倉位轉向新興市場，高達91%經理人認為美股高估顯示倉位並非十分擁擠.md",
+      "source_local": "/Users/wangwei/Desktop/Python traing/01_投資報告整理/_後台/舊原文夾/美股Insight/2025-08-11_8月FMS：大砍歐股倉位轉向新興市場，高達91%經理人認為美股高估顯示倉位並非十分擁擠.md",
       "aum_bn_usd": 4750,
       "tech_zscore": 8.0,
       "abs_overweight": [
@@ -679,7 +679,7 @@
         "似乎仍是偏低"
       ],
       "source": "https://vocus.cc/article/68c9bcc5fd89780001d6ee40",
-      "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/投資報告整理/_後台/舊原文夾/美股Insight/2025-09-16_9月FMS：經理人大幅轉向美股與科技股，但對比歷史Z-Score來看倉位似乎仍舊偏低.md",
+      "source_local": "/Users/wangwei/Desktop/Python traing/01_投資報告整理/_後台/舊原文夾/美股Insight/2025-09-16_9月FMS：經理人大幅轉向美股與科技股，但對比歷史Z-Score來看倉位似乎仍舊偏低.md",
       "aum_bn_usd": 4900,
       "tech_zscore": 1.0,
       "abs_overweight": [
@@ -735,7 +735,7 @@
         "繼續顯示 FMS 經理人在現金水位低至 3.8% 的同時"
       ],
       "source": "https://vocus.cc/article/68ef7a2cfd897800019f8e9b",
-      "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/投資報告整理/_後台/舊原文夾/美股Insight/2025-10-15_10月FMS：現金降至3.8%歷史低檔，樂觀Overweight新興市場但保持低度科技股倉位.md",
+      "source_local": "/Users/wangwei/Desktop/Python traing/01_投資報告整理/_後台/舊原文夾/美股Insight/2025-10-15_10月FMS：現金降至3.8%歷史低檔，樂觀Overweight新興市場但保持低度科技股倉位.md",
       "aum_bn_usd": 4680,
       "tech_zscore": 1.0,
       "abs_overweight": [
@@ -789,7 +789,7 @@
         "歐元區"
       ],
       "source": "https://vocus.cc/article/6920ff34fd89780001e2ca57",
-      "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/投資報告整理/_後台/舊原文夾/美股Insight/2025-11-22_11月FMS：經理人希望AI投資「跑慢點」，從Z-Score觀察科技股良好逆向交易時機或需再等待一下.md",
+      "source_local": "/Users/wangwei/Desktop/Python traing/01_投資報告整理/_後台/舊原文夾/美股Insight/2025-11-22_11月FMS：經理人希望AI投資「跑慢點」，從Z-Score觀察科技股良好逆向交易時機或需再等待一下.md",
       "aum_bn_usd": 5500,
       "tech_zscore": 3.0,
       "abs_overweight": [
@@ -844,7 +844,7 @@
         "現金"
       ],
       "source": "https://vocus.cc/article/6942a766fd8978000142d960",
-      "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/投資報告整理/_後台/舊原文夾/美股Insight/2025-12-17_12月FMS：經理人現金水位再創3.3%歷史新低，科技股倉位出現大幅回補.md",
+      "source_local": "/Users/wangwei/Desktop/Python traing/01_投資報告整理/_後台/舊原文夾/美股Insight/2025-12-17_12月FMS：經理人現金水位再創3.3%歷史新低，科技股倉位出現大幅回補.md",
       "aum_bn_usd": 3640,
       "tech_zscore": 6.0,
       "abs_overweight": [
@@ -902,7 +902,7 @@
         "英股"
       ],
       "source": "https://vocus.cc/article/6996d134fd8978000189d276",
-      "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/投資報告整理/_後台/舊原文夾/美股Insight/2026-02-19_2月FMS：CSP財報後再大砍科技，預期弱勢美元時代擁擠交易歐元、新興市場.md",
+      "source_local": "/Users/wangwei/Desktop/Python traing/01_投資報告整理/_後台/舊原文夾/美股Insight/2026-02-19_2月FMS：CSP財報後再大砍科技，預期弱勢美元時代擁擠交易歐元、新興市場.md",
       "aum_bn_usd": 5120,
       "tech_zscore": 2.0,
       "abs_overweight": [
@@ -961,7 +961,7 @@
         "工業股"
       ],
       "source": "https://vocus.cc/article/69bbe889fd8978000120180b",
-      "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/投資報告整理/_後台/舊原文夾/美股Insight/2026-03-19_3月FMS：在高油價不確定持續多長下美元倉位似乎過輕，並仍舊對科技股抱持輕倉態度.md",
+      "source_local": "/Users/wangwei/Desktop/Python traing/01_投資報告整理/_後台/舊原文夾/美股Insight/2026-03-19_3月FMS：在高油價不確定持續多長下美元倉位似乎過輕，並仍舊對科技股抱持輕倉態度.md",
       "aum_bn_usd": 5890,
       "tech_zscore": 0.0,
       "abs_overweight": [
@@ -1019,7 +1019,7 @@
         "大宗商品"
       ],
       "source": "https://vocus.cc/article/69ded06efd8978000191868d",
-      "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/投資報告整理/_後台/舊原文夾/美股Insight/2026-04-14_4月FMS：市場開始定價降息停止，惟4_8宣布停戰二週可能令FMS倉位調查失真.md",
+      "source_local": "/Users/wangwei/Desktop/Python traing/01_投資報告整理/_後台/舊原文夾/美股Insight/2026-04-14_4月FMS：市場開始定價降息停止，惟4_8宣布停戰二週可能令FMS倉位調查失真.md",
       "aum_bn_usd": 5630,
       "tech_zscore": -0.5,
       "abs_overweight": [
@@ -1076,7 +1076,7 @@
         "必須消費"
       ],
       "source": "https://vocus.cc/article/6a0eaf70fd89780001612a51",
-      "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/投資報告整理/_後台/舊原文夾/美股Insight/2026-05-21_5月FMS：預期二次通膨回升和長債殖利率突破6%，但現金水位卻驟降至3.9%大舉回補股票.md",
+      "source_local": "/Users/wangwei/Desktop/Python traing/01_投資報告整理/_後台/舊原文夾/美股Insight/2026-05-21_5月FMS：預期二次通膨回升和長債殖利率突破6%，但現金水位卻驟降至3.9%大舉回補股票.md",
       "aum_bn_usd": 4610,
       "equity_ow_pct": 9,
       "tech_zscore": -0.2,
