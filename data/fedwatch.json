@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T12:01:16+08:00",
+  "updated_at": "2026-08-19T13:45:16+08:00",
   "tag": "自算近似",
   "source": "ZQ 結算（CME）＋FRED 目標區間；公式近似 FedWatch，非官方截圖",
   "source_url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
@@ -115,12 +115,12 @@
       "bands": [
         {
           "label": "3.75%-4.00%",
-          "pct": 13.2,
+          "pct": 25.6,
           "vs_current": "hike"
         },
         {
           "label": "4.00%-4.25%",
-          "pct": 86.8,
+          "pct": 74.4,
           "vs_current": "hike"
         }
       ]
@@ -153,12 +153,12 @@
       "bands": [
         {
           "label": "3.75%-4.00%",
-          "pct": 78.0,
+          "pct": 80.0,
           "vs_current": "hike"
         },
         {
           "label": "4.00%-4.25%",
-          "pct": 22.0,
+          "pct": 20.0,
           "vs_current": "hike"
         }
       ]
