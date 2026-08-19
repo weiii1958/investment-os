@@ -1,70 +1,65 @@
 {
-  "updated_at": "2026-08-18T22:59:57+08:00",
+  "updated_at": "2026-08-19T14:25:44+08:00",
   "source": "美股 Insight FMS 文（vocus_archive／舊原文夾／整理版）自動抽取",
   "latest": {
-    "survey_period": "7/2 ~ 7/9",
-    "publish_date": "2026-07-14",
-    "sample_size": 210,
-    "aum_bn_usd": 5550,
-    "cash_pct_aum": 3.6,
+    "survey_period": "8/7 ~ 8/13",
+    "publish_date": "2026-08-18",
+    "sample_size": 203,
+    "aum_bn_usd": 5250,
+    "cash_pct_aum": 3.5,
     "cash_alert_line": 4.0,
-    "most_crowded": [
-      {
-        "name": "半導體",
-        "pct": 82
-      },
-      {
-        "name": "Magnificent 7",
-        "pct": 7
-      }
-    ],
+    "most_crowded": [],
     "landing": {
-      "hard": 2,
-      "soft": 39,
-      "no_landing": 54
+      "soft": 34,
+      "no_landing": 56
     },
-    "ai_capex_systemic_risk_net_pct": 48,
-    "ai_bubble_pct": 48,
-    "growth_optimism_net_pct": 21,
-    "cpi_higher_net_pct": 4,
-    "fed_no_hike_before_midterm_pct": 83,
-    "oil_yearend_median_usd": 71.0,
+    "ai_capex_systemic_risk_net_pct": null,
+    "ai_bubble_pct": null,
+    "growth_optimism_net_pct": null,
+    "cpi_higher_net_pct": null,
+    "fed_no_hike_before_midterm_pct": null,
+    "oil_yearend_median_usd": null,
     "equity_ow_pct": null,
-    "tech_zscore": -0.1,
+    "tech_zscore": 0.5,
     "mom_overweight": [
-      "醫療保健",
-      "歐元區",
-      "債券",
-      "日股",
-      "歐元",
-      "美股"
+      "能源股",
+      "股權",
+      "大宗商品",
+      "必需消費品",
+      "科技股",
+      "REITs"
     ],
     "mom_underweight": [
-      "能源",
-      "大宗商品",
-      "新興市場",
-      "科技股"
+      "工業股",
+      "歐元",
+      "債券",
+      "公用事業",
+      "原物料",
+      "醫療保健",
+      "日股",
+      "現金"
     ],
     "abs_overweight": [
       "股權",
-      "醫療保健",
       "新興市場",
+      "科技股",
       "銀行股",
-      "工業股"
+      "醫療保健"
     ],
     "abs_underweight": [
-      "英股",
       "債券",
-      "必須消費",
-      "非必須消費",
-      "能源",
+      "英股",
+      "必需消費品",
+      "非必需消費",
       "英鎊",
-      "REITs 資產類別"
+      "保險股",
+      "REITs",
+      "公用事業資產類別"
     ],
-    "note": "自動自 Insight FMS 文抽取：7月FMS：現金重回4%以下樂觀警戒線，MoM倉位增持醫療保健/工業增加投組廣度",
-    "source": "https://vocus.cc/article/6a5e1fdffd897800010de413",
-    "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/vocus_archive/美股Insight/2026-07-20_7月FMS：現金重回4%以下樂觀警戒線，MoM倉位增持醫療保健_工業增加投組廣度.md",
-    "title": "7月FMS：現金重回4%以下樂觀警戒線，MoM倉位增持醫療保健/工業增加投組廣度",
+    "note": "自動自 Insight FMS 文抽取：8月FMS：現金水位創1998年來第6低，科技股回補力道不弱但AI半導體似乎回補不多",
+    "source": "https://vocus.cc/article/6a84d173fd897800013b1306",
+    "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/vocus_archive/美股Insight/2026-08-18_8月FMS：現金水位創1998年來第6低，科技股回補力道不弱但AI半導體似乎回補不多.md",
+    "title": "8月FMS：現金水位創1998年來第6低，科技股回補力道不弱但AI半導體似乎回補不多",
     "tag": "問卷（FMS）"
   },
   "history": [
@@ -1212,6 +1207,59 @@
         "能源",
         "英鎊",
         "REITs 資產類別"
+      ]
+    },
+    {
+      "ym": "2026-08",
+      "publish_date": "2026-08-18",
+      "article_date": "2026-08-18",
+      "title": "8月FMS：現金水位創1998年來第6低，科技股回補力道不弱但AI半導體似乎回補不多",
+      "cash_pct_aum": 3.5,
+      "sample_size": 203,
+      "landing": {
+        "soft": 34,
+        "no_landing": 56
+      },
+      "most_crowded": [],
+      "ai_capex_systemic_risk_net_pct": null,
+      "mom_overweight": [
+        "能源股",
+        "股權",
+        "大宗商品",
+        "必需消費品",
+        "科技股",
+        "REITs"
+      ],
+      "mom_underweight": [
+        "工業股",
+        "歐元",
+        "債券",
+        "公用事業",
+        "原物料",
+        "醫療保健",
+        "日股",
+        "現金"
+      ],
+      "source": "https://vocus.cc/article/6a84d173fd897800013b1306",
+      "source_local": "/Users/wangwei/Desktop/Python traing/投資框架的建立/vocus_archive/美股Insight/2026-08-18_8月FMS：現金水位創1998年來第6低，科技股回補力道不弱但AI半導體似乎回補不多.md",
+      "aum_bn_usd": 5250,
+      "tech_zscore": 0.5,
+      "abs_overweight": [
+        "股權",
+        "新興市場",
+        "科技股",
+        "銀行股",
+        "醫療保健"
+      ],
+      "abs_underweight": [
+        "債券",
+        "英股",
+        "必需消費品",
+        "非必需消費",
+        "英鎊",
+        "保險股",
+        "REITs",
+        "公用事業資產類別"
       ]
     }
   ]
