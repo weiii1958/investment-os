@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T12:00:50+08:00",
+  "updated_at": "2026-08-26T13:45:32+08:00",
   "tag": "自算近似",
   "source": "ZQ 結算（CME）＋FRED 目標區間；公式近似 FedWatch，非官方截圖",
   "source_url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
@@ -38,12 +38,12 @@
     "bands": [
       {
         "label": "3.75%-4.00%",
-        "pct": 56.9,
+        "pct": 59.6,
         "vs_current": "hike"
       },
       {
         "label": "4.00%-4.25%",
-        "pct": 43.1,
+        "pct": 40.4,
         "vs_current": "hike"
       }
     ]
@@ -77,12 +77,12 @@
       "bands": [
         {
           "label": "3.75%-4.00%",
-          "pct": 14.0,
+          "pct": 29.5,
           "vs_current": "hike"
         },
         {
           "label": "4.00%-4.25%",
-          "pct": 86.0,
+          "pct": 70.5,
           "vs_current": "hike"
         }
       ]
@@ -96,12 +96,12 @@
       "bands": [
         {
           "label": "3.75%-4.00%",
-          "pct": 56.9,
+          "pct": 59.6,
           "vs_current": "hike"
         },
         {
           "label": "4.00%-4.25%",
-          "pct": 43.1,
+          "pct": 40.4,
           "vs_current": "hike"
         }
       ]
@@ -134,12 +134,12 @@
       "bands": [
         {
           "label": "3.75%-4.00%",
-          "pct": 71.1,
+          "pct": 75.2,
           "vs_current": "hike"
         },
         {
           "label": "4.00%-4.25%",
-          "pct": 28.9,
+          "pct": 24.8,
           "vs_current": "hike"
         }
       ]
@@ -153,12 +153,12 @@
       "bands": [
         {
           "label": "3.75%-4.00%",
-          "pct": 76.0,
+          "pct": 80.0,
           "vs_current": "hike"
         },
         {
           "label": "4.00%-4.25%",
-          "pct": 24.0,
+          "pct": 20.0,
           "vs_current": "hike"
         }
       ]
