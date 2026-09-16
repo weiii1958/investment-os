@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T23:30:55+08:00",
+  "updated_at": "2026-09-17T07:31:17+08:00",
   "tag": "自算近似",
   "source": "ZQ 結算（CME）＋FRED 目標區間；公式近似 FedWatch，非官方截圖",
   "source_url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
@@ -7,24 +7,24 @@
   "current_target": "3.50%-3.75%",
   "schedule_status": {
     "state": "ok",
-    "remaining": 12,
+    "remaining": 11,
     "last_known": "2028-01-26"
   },
   "next": {
-    "meeting_date": "2026-09-16",
-    "contract": "ZQU6",
+    "meeting_date": "2026-10-28",
+    "contract": "ZQV6",
     "ease_pct": 0.0,
-    "hold_pct": 14.0,
-    "hike_pct": 86.0,
+    "hold_pct": 0.0,
+    "hike_pct": 100.0,
     "bands": [
       {
-        "label": "3.50%-3.75%",
-        "pct": 14.0,
-        "vs_current": "hold"
+        "label": "4.50%-4.75%",
+        "pct": 73.7,
+        "vs_current": "hike"
       },
       {
-        "label": "3.75%-4.00%",
-        "pct": 86.0,
+        "label": "4.75%-5.00%",
+        "pct": 26.3,
         "vs_current": "hike"
       }
     ]
@@ -49,25 +49,6 @@
     ]
   },
   "meetings": [
-    {
-      "meeting_date": "2026-09-16",
-      "contract": "ZQU6",
-      "ease_pct": 0.0,
-      "hold_pct": 14.0,
-      "hike_pct": 86.0,
-      "bands": [
-        {
-          "label": "3.50%-3.75%",
-          "pct": 14.0,
-          "vs_current": "hold"
-        },
-        {
-          "label": "3.75%-4.00%",
-          "pct": 86.0,
-          "vs_current": "hike"
-        }
-      ]
-    },
     {
       "meeting_date": "2026-10-28",
       "contract": "ZQV6",
@@ -159,6 +140,25 @@
         {
           "label": "4.50%-4.75%",
           "pct": 56.0,
+          "vs_current": "hike"
+        }
+      ]
+    },
+    {
+      "meeting_date": "2027-06-09",
+      "contract": "ZQM7",
+      "ease_pct": 0.0,
+      "hold_pct": 0.0,
+      "hike_pct": 100.0,
+      "bands": [
+        {
+          "label": "4.25%-4.50%",
+          "pct": 70.0,
+          "vs_current": "hike"
+        },
+        {
+          "label": "4.50%-4.75%",
+          "pct": 30.0,
           "vs_current": "hike"
         }
       ]
