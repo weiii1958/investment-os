@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T13:45:20+08:00",
+  "updated_at": "2026-09-20T21:40:23+08:00",
   "tag": "自算近似",
   "source": "ZQ 結算（CME）＋FRED 目標區間；公式近似 FedWatch，非官方截圖",
   "source_url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
@@ -14,17 +14,17 @@
     "meeting_date": "2026-10-28",
     "contract": "ZQV6",
     "ease_pct": 0.0,
-    "hold_pct": 0.0,
-    "hike_pct": 100.0,
+    "hold_pct": 42.4,
+    "hike_pct": 57.6,
     "bands": [
       {
-        "label": "4.50%-4.75%",
-        "pct": 42.8,
-        "vs_current": "hike"
+        "label": "3.75%-4.00%",
+        "pct": 42.4,
+        "vs_current": "hold"
       },
       {
-        "label": "4.75%-5.00%",
-        "pct": 57.2,
+        "label": "4.00%-4.25%",
+        "pct": 57.6,
         "vs_current": "hike"
       }
     ]
@@ -33,17 +33,22 @@
     "meeting_date": "2026-12-09",
     "contract": "ZQZ6",
     "ease_pct": 0.0,
-    "hold_pct": 0.0,
-    "hike_pct": 100.0,
+    "hold_pct": 9.9,
+    "hike_pct": 90.1,
     "bands": [
       {
+        "label": "3.75%-4.00%",
+        "pct": 9.9,
+        "vs_current": "hold"
+      },
+      {
         "label": "4.00%-4.25%",
-        "pct": 24.5,
+        "pct": 46.0,
         "vs_current": "hike"
       },
       {
         "label": "4.25%-4.50%",
-        "pct": 75.5,
+        "pct": 44.1,
         "vs_current": "hike"
       }
     ]
@@ -53,17 +58,17 @@
       "meeting_date": "2026-10-28",
       "contract": "ZQV6",
       "ease_pct": 0.0,
-      "hold_pct": 0.0,
-      "hike_pct": 100.0,
+      "hold_pct": 42.4,
+      "hike_pct": 57.6,
       "bands": [
         {
-          "label": "4.50%-4.75%",
-          "pct": 42.8,
-          "vs_current": "hike"
+          "label": "3.75%-4.00%",
+          "pct": 42.4,
+          "vs_current": "hold"
         },
         {
-          "label": "4.75%-5.00%",
-          "pct": 57.2,
+          "label": "4.00%-4.25%",
+          "pct": 57.6,
           "vs_current": "hike"
         }
       ]
@@ -72,17 +77,22 @@
       "meeting_date": "2026-12-09",
       "contract": "ZQZ6",
       "ease_pct": 0.0,
-      "hold_pct": 0.0,
-      "hike_pct": 100.0,
+      "hold_pct": 9.9,
+      "hike_pct": 90.1,
       "bands": [
         {
+          "label": "3.75%-4.00%",
+          "pct": 9.9,
+          "vs_current": "hold"
+        },
+        {
           "label": "4.00%-4.25%",
-          "pct": 24.5,
+          "pct": 46.0,
           "vs_current": "hike"
         },
         {
           "label": "4.25%-4.50%",
-          "pct": 75.5,
+          "pct": 44.1,
           "vs_current": "hike"
         }
       ]
@@ -91,17 +101,27 @@
       "meeting_date": "2027-01-27",
       "contract": "ZQF7",
       "ease_pct": 0.0,
-      "hold_pct": 0.0,
-      "hike_pct": 100.0,
+      "hold_pct": 5.8,
+      "hike_pct": 94.2,
       "bands": [
         {
+          "label": "3.75%-4.00%",
+          "pct": 5.8,
+          "vs_current": "hold"
+        },
+        {
+          "label": "4.00%-4.25%",
+          "pct": 31.1,
+          "vs_current": "hike"
+        },
+        {
           "label": "4.25%-4.50%",
-          "pct": 38.8,
+          "pct": 44.9,
           "vs_current": "hike"
         },
         {
           "label": "4.50%-4.75%",
-          "pct": 61.2,
+          "pct": 18.2,
           "vs_current": "hike"
         }
       ]
@@ -110,17 +130,32 @@
       "meeting_date": "2027-03-17",
       "contract": "ZQH7",
       "ease_pct": 0.0,
-      "hold_pct": 0.0,
-      "hike_pct": 100.0,
+      "hold_pct": 2.0,
+      "hike_pct": 98.0,
       "bands": [
         {
+          "label": "3.75%-4.00%",
+          "pct": 2.0,
+          "vs_current": "hold"
+        },
+        {
+          "label": "4.00%-4.25%",
+          "pct": 14.4,
+          "vs_current": "hike"
+        },
+        {
           "label": "4.25%-4.50%",
-          "pct": 33.9,
+          "pct": 35.8,
           "vs_current": "hike"
         },
         {
           "label": "4.50%-4.75%",
-          "pct": 66.1,
+          "pct": 35.8,
+          "vs_current": "hike"
+        },
+        {
+          "label": "4.75%-5.00%",
+          "pct": 12.0,
           "vs_current": "hike"
         }
       ]
@@ -129,17 +164,37 @@
       "meeting_date": "2027-04-28",
       "contract": "ZQJ7",
       "ease_pct": 0.0,
-      "hold_pct": 0.0,
-      "hike_pct": 100.0,
+      "hold_pct": 1.4,
+      "hike_pct": 98.7,
       "bands": [
         {
+          "label": "3.75%-4.00%",
+          "pct": 1.4,
+          "vs_current": "hold"
+        },
+        {
+          "label": "4.00%-4.25%",
+          "pct": 10.7,
+          "vs_current": "hike"
+        },
+        {
           "label": "4.25%-4.50%",
-          "pct": 36.0,
+          "pct": 29.4,
           "vs_current": "hike"
         },
         {
           "label": "4.50%-4.75%",
-          "pct": 64.0,
+          "pct": 35.8,
+          "vs_current": "hike"
+        },
+        {
+          "label": "4.75%-5.00%",
+          "pct": 19.2,
+          "vs_current": "hike"
+        },
+        {
+          "label": "5.00%-5.25%",
+          "pct": 3.6,
           "vs_current": "hike"
         }
       ]
@@ -148,17 +203,42 @@
       "meeting_date": "2027-06-09",
       "contract": "ZQM7",
       "ease_pct": 0.0,
-      "hold_pct": 0.0,
-      "hike_pct": 100.0,
+      "hold_pct": 0.9,
+      "hike_pct": 99.2,
       "bands": [
         {
+          "label": "3.75%-4.00%",
+          "pct": 0.9,
+          "vs_current": "hold"
+        },
+        {
+          "label": "4.00%-4.25%",
+          "pct": 7.6,
+          "vs_current": "hike"
+        },
+        {
+          "label": "4.25%-4.50%",
+          "pct": 23.2,
+          "vs_current": "hike"
+        },
+        {
           "label": "4.50%-4.75%",
-          "pct": 70.0,
+          "pct": 33.7,
           "vs_current": "hike"
         },
         {
           "label": "4.75%-5.00%",
-          "pct": 30.0,
+          "pct": 24.7,
+          "vs_current": "hike"
+        },
+        {
+          "label": "5.00%-5.25%",
+          "pct": 8.8,
+          "vs_current": "hike"
+        },
+        {
+          "label": "5.25%-5.50%",
+          "pct": 1.2,
           "vs_current": "hike"
         }
       ]
